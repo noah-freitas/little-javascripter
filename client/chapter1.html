@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset=UTF-8>
+        <title>Chapter 1</title>
+        <script src=../lib/chapter1.js></script>
+    </head>
+    <body>
+        <script>
+            document.write('Is it true that this is an atom? "atom"');
+            document.write(isAtom("atom") ? 'Yes' : 'No');            
+        </script>
+        <script>
+            document.write('What is the car of <em>l</em> where <em>l</em> is '
+                + '[["a", "b", "c"], "x", "y", "z"]');
+            document.write(JSON.stringify(car([["a", "b", "c"], "x", "y", "z"])));
+        </script>
+    </body>
+</html>
